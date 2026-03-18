@@ -30,11 +30,22 @@
         {
             tabControl1 = new TabControl();
             Minutnik = new TabPage();
-            Stoper = new TabPage();
-            textBox1 = new TextBox();
+            reset_btn1 = new Button();
+            stop_btn1 = new Button();
+            start_btn1 = new Button();
+            timer_label1 = new Label();
+            label2 = new Label();
+            label1 = new Label();
             textBox2 = new TextBox();
+            textBox1 = new TextBox();
+            Stoper = new TabPage();
+            reset_btn2 = new Button();
+            stop_btn2 = new Button();
+            start_btn2 = new Button();
+            timer_label2 = new Label();
             tabControl1.SuspendLayout();
             Minutnik.SuspendLayout();
+            Stoper.SuspendLayout();
             SuspendLayout();
             // 
             // tabControl1
@@ -49,6 +60,12 @@
             // 
             // Minutnik
             // 
+            Minutnik.Controls.Add(reset_btn1);
+            Minutnik.Controls.Add(stop_btn1);
+            Minutnik.Controls.Add(start_btn1);
+            Minutnik.Controls.Add(timer_label1);
+            Minutnik.Controls.Add(label2);
+            Minutnik.Controls.Add(label1);
             Minutnik.Controls.Add(textBox2);
             Minutnik.Controls.Add(textBox1);
             Minutnik.Location = new Point(4, 24);
@@ -59,30 +76,126 @@
             Minutnik.Text = "Minutnik";
             Minutnik.UseVisualStyleBackColor = true;
             // 
+            // reset_btn1
+            // 
+            reset_btn1.Location = new Point(309, 161);
+            reset_btn1.Name = "reset_btn1";
+            reset_btn1.Size = new Size(75, 23);
+            reset_btn1.TabIndex = 7;
+            reset_btn1.Text = "reset";
+            reset_btn1.UseVisualStyleBackColor = true;
+            // 
+            // stop_btn1
+            // 
+            stop_btn1.Location = new Point(411, 161);
+            stop_btn1.Name = "stop_btn1";
+            stop_btn1.Size = new Size(75, 23);
+            stop_btn1.TabIndex = 6;
+            stop_btn1.Text = "stop";
+            stop_btn1.UseVisualStyleBackColor = true;
+            // 
+            // start_btn1
+            // 
+            start_btn1.Location = new Point(203, 161);
+            start_btn1.Name = "start_btn1";
+            start_btn1.Size = new Size(75, 23);
+            start_btn1.TabIndex = 5;
+            start_btn1.Text = "start";
+            start_btn1.UseVisualStyleBackColor = true;
+            start_btn1.Click += start_btn1_Click;
+            // 
+            // timer_label1
+            // 
+            timer_label1.AutoSize = true;
+            timer_label1.Font = new Font("Segoe UI", 30F);
+            timer_label1.Location = new Point(289, 254);
+            timer_label1.Name = "timer_label1";
+            timer_label1.Size = new Size(120, 54);
+            timer_label1.TabIndex = 4;
+            timer_label1.Text = "00:00";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(434, 84);
+            label2.Name = "label2";
+            label2.Size = new Size(52, 15);
+            label2.TabIndex = 3;
+            label2.Text = "Sekundy";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(221, 84);
+            label1.Name = "label1";
+            label1.Size = new Size(45, 15);
+            label1.TabIndex = 2;
+            label1.Text = "Minuty";
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(411, 102);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(92, 23);
+            textBox2.TabIndex = 1;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(203, 102);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(92, 23);
+            textBox1.TabIndex = 0;
+            // 
             // Stoper
             // 
+            Stoper.Controls.Add(reset_btn2);
+            Stoper.Controls.Add(stop_btn2);
+            Stoper.Controls.Add(start_btn2);
+            Stoper.Controls.Add(timer_label2);
             Stoper.Location = new Point(4, 24);
             Stoper.Name = "Stoper";
             Stoper.Padding = new Padding(3);
-            Stoper.Size = new Size(317, 197);
+            Stoper.Size = new Size(724, 355);
             Stoper.TabIndex = 1;
             Stoper.Text = "Stoper";
             Stoper.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // reset_btn2
             // 
-            textBox1.Location = new Point(169, 66);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(92, 23);
-            textBox1.TabIndex = 0;
-            textBox1.TextChanged += textBox1_TextChanged;
+            reset_btn2.Location = new Point(459, 68);
+            reset_btn2.Name = "reset_btn2";
+            reset_btn2.Size = new Size(75, 23);
+            reset_btn2.TabIndex = 3;
+            reset_btn2.Text = "reset";
+            reset_btn2.UseVisualStyleBackColor = true;
             // 
-            // textBox2
+            // stop_btn2
             // 
-            textBox2.Location = new Point(335, 66);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(92, 23);
-            textBox2.TabIndex = 1;
+            stop_btn2.Location = new Point(322, 68);
+            stop_btn2.Name = "stop_btn2";
+            stop_btn2.Size = new Size(75, 23);
+            stop_btn2.TabIndex = 2;
+            stop_btn2.Text = "stop";
+            stop_btn2.UseVisualStyleBackColor = true;
+            // 
+            // start_btn2
+            // 
+            start_btn2.Location = new Point(170, 68);
+            start_btn2.Name = "start_btn2";
+            start_btn2.Size = new Size(75, 23);
+            start_btn2.TabIndex = 1;
+            start_btn2.Text = "start";
+            start_btn2.UseVisualStyleBackColor = true;
+            // 
+            // timer_label2
+            // 
+            timer_label2.AutoSize = true;
+            timer_label2.Font = new Font("Segoe UI", 30F);
+            timer_label2.Location = new Point(297, 208);
+            timer_label2.Name = "timer_label2";
+            timer_label2.Size = new Size(120, 54);
+            timer_label2.TabIndex = 0;
+            timer_label2.Text = "00:00";
             // 
             // Form1
             // 
@@ -95,6 +208,8 @@
             tabControl1.ResumeLayout(false);
             Minutnik.ResumeLayout(false);
             Minutnik.PerformLayout();
+            Stoper.ResumeLayout(false);
+            Stoper.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -105,5 +220,15 @@
         private TabPage Stoper;
         private TextBox textBox2;
         private TextBox textBox1;
+        private Label label2;
+        private Label label1;
+        private Button stop_btn1;
+        private Button start_btn1;
+        private Label timer_label1;
+        private Button reset_btn1;
+        private Button reset_btn2;
+        private Button stop_btn2;
+        private Button start_btn2;
+        private Label timer_label2;
     }
 }

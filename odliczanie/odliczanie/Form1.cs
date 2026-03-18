@@ -7,9 +7,11 @@ namespace odliczanie
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void start_btn1_Click(object sender, EventArgs e)
         {
 
         }
+
+
     }
 }
