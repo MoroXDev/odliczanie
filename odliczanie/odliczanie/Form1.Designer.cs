@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             tabControl1 = new TabControl();
             Minutnik = new TabPage();
             reset_btn1 = new Button();
@@ -43,6 +44,8 @@
             stop_btn2 = new Button();
             start_btn2 = new Button();
             timer_label2 = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
+            timer2 = new System.Windows.Forms.Timer(components);
             tabControl1.SuspendLayout();
             Minutnik.SuspendLayout();
             Stoper.SuspendLayout();
@@ -84,6 +87,7 @@
             reset_btn1.TabIndex = 7;
             reset_btn1.Text = "reset";
             reset_btn1.UseVisualStyleBackColor = true;
+            reset_btn1.Click += reset_btn1_Click;
             // 
             // stop_btn1
             // 
@@ -93,6 +97,7 @@
             stop_btn1.TabIndex = 6;
             stop_btn1.Text = "stop";
             stop_btn1.UseVisualStyleBackColor = true;
+            stop_btn1.Click += stop_btn1_Click;
             // 
             // start_btn1
             // 
@@ -168,6 +173,7 @@
             reset_btn2.TabIndex = 3;
             reset_btn2.Text = "reset";
             reset_btn2.UseVisualStyleBackColor = true;
+            reset_btn2.Click += reset_btn2_Click;
             // 
             // stop_btn2
             // 
@@ -177,6 +183,7 @@
             stop_btn2.TabIndex = 2;
             stop_btn2.Text = "stop";
             stop_btn2.UseVisualStyleBackColor = true;
+            stop_btn2.Click += stop_btn2_Click;
             // 
             // start_btn2
             // 
@@ -186,6 +193,7 @@
             start_btn2.TabIndex = 1;
             start_btn2.Text = "start";
             start_btn2.UseVisualStyleBackColor = true;
+            start_btn2.Click += start_btn2_Click;
             // 
             // timer_label2
             // 
@@ -196,6 +204,14 @@
             timer_label2.Size = new Size(120, 54);
             timer_label2.TabIndex = 0;
             timer_label2.Text = "00:00";
+            // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick;
+            // 
+            // timer2
+            // 
+            timer2.Tick += timer2_Tick;
             // 
             // Form1
             // 
@@ -214,6 +230,8 @@
         }
 
         #endregion
+        int seconds_time1 = 0;
+        int seconds_time2 = 0;
 
         private TabControl tabControl1;
         private TabPage Minutnik;
@@ -230,5 +248,7 @@
         private Button stop_btn2;
         private Button start_btn2;
         private Label timer_label2;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer2;
     }
 }

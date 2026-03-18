@@ -1,0 +1,17 @@
+C:\Users\1ap\Desktop\odliczanie\odliczanie\odliczanie\bin\Debug\net10.0-windows\odliczanie.exe
+C:\Users\1ap\Desktop\odliczanie\odliczanie\odliczanie\bin\Debug\net10.0-windows\odliczanie.deps.json
+C:\Users\1ap\Desktop\odliczanie\odliczanie\odliczanie\bin\Debug\net10.0-windows\odliczanie.runtimeconfig.json
+C:\Users\1ap\Desktop\odliczanie\odliczanie\odliczanie\bin\Debug\net10.0-windows\odliczanie.dll
+C:\Users\1ap\Desktop\odliczanie\odliczanie\odliczanie\bin\Debug\net10.0-windows\odliczanie.pdb
+C:\Users\1ap\Desktop\odliczanie\odliczanie\odliczanie\obj\Debug\net10.0-windows\odliczanie.Form1.resources
+C:\Users\1ap\Desktop\odliczanie\odliczanie\odliczanie\obj\Debug\net10.0-windows\odliczanie.csproj.GenerateResource.cache
+C:\Users\1ap\Desktop\odliczanie\odliczanie\odliczanie\obj\Debug\net10.0-windows\odliczanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1ap\Desktop\odliczanie\odliczanie\odliczanie\obj\Debug\net10.0-windows\odliczanie.AssemblyInfoInputs.cache
+C:\Users\1ap\Desktop\odliczanie\odliczanie\odliczanie\obj\Debug\net10.0-windows\odliczanie.AssemblyInfo.cs
+C:\Users\1ap\Desktop\odliczanie\odliczanie\odliczanie\obj\Debug\net10.0-windows\odliczanie.csproj.CoreCompileInputs.cache
+C:\Users\1ap\Desktop\odliczanie\odliczanie\odliczanie\obj\Debug\net10.0-windows\odliczanie.sourcelink.json
+C:\Users\1ap\Desktop\odliczanie\odliczanie\odliczanie\obj\Debug\net10.0-windows\odliczanie.dll
+C:\Users\1ap\Desktop\odliczanie\odliczanie\odliczanie\obj\Debug\net10.0-windows\refint\odliczanie.dll
+C:\Users\1ap\Desktop\odliczanie\odliczanie\odliczanie\obj\Debug\net10.0-windows\odliczanie.pdb
+C:\Users\1ap\Desktop\odliczanie\odliczanie\odliczanie\obj\Debug\net10.0-windows\odliczanie.genruntimeconfig.cache
+C:\Users\1ap\Desktop\odliczanie\odliczanie\odliczanie\obj\Debug\net10.0-windows\ref\odliczanie.dll

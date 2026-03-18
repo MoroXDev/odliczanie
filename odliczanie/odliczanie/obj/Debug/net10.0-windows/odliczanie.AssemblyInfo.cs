@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("odliczanie")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e577129647fe55872cabaf82f345f3b231c51ea4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e131750e25aeb56c060124bf4139a53fea51f33")]
 [assembly: System.Reflection.AssemblyProductAttribute("odliczanie")]
 [assembly: System.Reflection.AssemblyTitleAttribute("odliczanie")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
