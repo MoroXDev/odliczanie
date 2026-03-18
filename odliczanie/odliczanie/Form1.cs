@@ -76,7 +76,7 @@ namespace odliczanie
         private void timer2_Tick(object sender, EventArgs e)
         {
             seconds_time2 += 1;
-            timer_label1.Text = TimeSpan.FromSeconds(seconds_time2).ToString(@"mm\:ss");
+            timer_label2.Text = TimeSpan.FromSeconds(seconds_time2).ToString(@"mm\:ss");
         }
     }
 }
