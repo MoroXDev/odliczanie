@@ -232,6 +232,8 @@
         #endregion
         int seconds_time1 = 0;
         int seconds_time2 = 0;
+        bool is_timer1_stopped = false;
+        bool is_timer2_stopped = false;
 
         private TabControl tabControl1;
         private TabPage Minutnik;

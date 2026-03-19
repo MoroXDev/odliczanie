@@ -11,6 +11,8 @@ namespace odliczanie
 
         private void start_btn1_Click(object sender, EventArgs e)
         {
+
+
             if (int.TryParse(textBox1.Text, out int minutes))
             {
                 if (int.TryParse(textBox2.Text, out int seconds))
@@ -28,6 +30,7 @@ namespace odliczanie
                     seconds_time1 = minutes * 60 + seconds;
                     timer_label1.Text = TimeSpan.FromSeconds(seconds_time1).ToString(@"mm\:ss");
                     timer1.Start();
+                    is_timer1_stopped = false;
                 }
                 else
                     MessageBox.Show("Źle wpisałeś sekundy");
@@ -45,23 +48,36 @@ namespace odliczanie
 
         private void stop_btn1_Click(object sender, EventArgs e)
         {
-            timer1.Stop();
+            if (is_timer1_stopped)
+                timer1.Start();
+            else
+                timer1.Stop();
+
+            is_timer1_stopped = !is_timer1_stopped;
         }
 
         private void start_btn2_Click(object sender, EventArgs e)
         {
             timer2.Start();
+            is_timer2_stopped = false;
         }
 
         private void stop_btn2_Click(object sender, EventArgs e)
         {
-            timer2.Stop();
+            if (is_timer2_stopped)
+                timer2.Start();
+            else
+                timer2.Stop();
+
+            is_timer2_stopped = !is_timer2_stopped;
         }
 
         private void reset_btn2_Click(object sender, EventArgs e)
         {
             seconds_time2 = 0;
             timer_label2.Text = "00:00";
+            timer2.Stop();
+            is_timer2_stopped = true;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
